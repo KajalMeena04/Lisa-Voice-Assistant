@@ -1,5 +1,5 @@
 '''Read README file to know how to operate'''
-
+# Do not forget to create api key for news
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
@@ -14,7 +14,8 @@ from datetime import date
 
 recognizer=sr.Recognizer() 
 engine=pyttsx3.init() 
-newsapi="7cc1f38926f24cc7ba33e7a86ff0eb44"
+# paste api key in the quotes 
+newsapi=""
 
 def play_youtube_song(song_name):
     pywhatkit.playonyt(song_name)
