@@ -15,7 +15,8 @@ How to Set It Up:
    pip install speechrecognition pyttsx3 pygame requests google-generativeai gTTS pywhatkit
 
 3. If you're running the program for the first time, ensure your system has microphone access enabled.
-4. Run the program using:
+4. Create a news api key .
+5. Run the program using:
 
    python main.py
 
