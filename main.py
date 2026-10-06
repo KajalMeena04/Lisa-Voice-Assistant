@@ -31,7 +31,7 @@ def speak(text):
     pygame.mixer.music.unload()
     
 def aiProcess(command):
-    genai.configure(api_key="AIzaSyAj-ehLHpkGRDDFhdocSnf3GlT_39i26xg")
+    genai.configure(api_key="") #add the api key here
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
     response = model.generate_content(command)
     return response.text
